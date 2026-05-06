@@ -1,0 +1,21 @@
+.contenedor{
+    max-width: 980px;
+     border-radius: 15px;
+     background-color: #f2f2f2;
+     padding: 20px;
+     margin: 0 auto;
+}
+ .grupo1{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     background-color: aqua;
+ }   
+
+  
+
+    table{
+        width: 100%;
+        border-collapse: collapse;
+        column-gap: 2px;
+    }
