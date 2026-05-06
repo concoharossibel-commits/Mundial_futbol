@@ -1,0 +1,14 @@
+.barra_navegacion{
+    background-color: rgb(26, 151, 224);
+   width: 100%;
+   height: 50px;
+   
+   
+}
+ .barra_navegacion ul{
+    display: flex;
+    color: blanchedalmond;
+    text-align: center;
+    font-size: 30px;
+ }
+
