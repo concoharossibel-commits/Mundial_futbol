@@ -1,21 +1,52 @@
 .contenedor{
-    max-width: 980px;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
      border-radius: 15px;
-     background-color: #f2f2f2;
+     background-color: #ffffff;
      padding: 20px;
-     margin: 0 auto;
+     margin: 20px;
+     display: grid;
+     gap: 20px;
+    
 }
- .grupo1{
-     display: flex;
-     flex-wrap: wrap;
-     justify-content: space-between;
-     background-color: aqua;
- }   
 
-  
 
-    table{
-        width: 100%;
-        border-collapse: collapse;
-        column-gap: 2px;
-    }
+.titulo {
+    text-align: center;
+    font-size: 25px;
+    color: #f2f2f2;
+}
+
+.grupo{
+    width: 250px;
+    padding: 15px 15px;
+    margin: 10px;
+    border: 1px solid #000000;
+    text-align: left;
+    background-color: crimson;
+    border-radius: 15px;
+    height: 250px;
+} 
+
+table {
+       border-color: #ffffff;
+       border-collapse: collapse;
+       width: 100%;
+}
+
+td{
+    border-color: aliceblue;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    border: 1px solid #ffffff;
+}
+
+.banderas{
+    width: 50px;
+    height: 30px;
+    margin-right: 18px;
+     vertical-align: middle;
+     
+}
+
+
+ 
