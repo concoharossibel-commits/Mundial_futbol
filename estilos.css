@@ -1,0 +1,59 @@
+.parte1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.fut img {
+    width: 600px;
+    height: 500px;
+}
+
+.titulo{
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+.pa{
+    font-size: 30px;
+}
+
+
+.parte2 {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:20px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 20px;
+}
+
+.anfitriones {
+    width: 250px;
+    padding: 80px 80px;
+    margin: 10px;
+    border: 1px solid rgb(58, 221, 13);
+    text-align: center;
+    background-color: rgb(238, 230, 8);
+    border-radius: 15px;
+
+}
+
+.pepe{
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+}
+
+h2{
+    text-align: center;
+    font-size: 50px;
+}
+
+
+
+
