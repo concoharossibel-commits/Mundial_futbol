@@ -1,3 +1,4 @@
+
 body{
 
 background-image: url(estadioro.jpg);
@@ -286,6 +287,68 @@ h4{
     background-size: 100px;
     background-repeat: no-repeat;
 }
+
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+     border-radius: 15px;
+     background-color: #ffffff;
+     padding: 20px;
+     margin: 20px;
+    
+}
+
+
+.titulo {
+    text-align: center;
+    font-size: 25px;
+    color: #f2f2f2;
+}
+
+.grupo{
+    width: 250px;
+    padding: 15px 15px;
+    margin: 10px;
+    border: 1px solid #000000;
+    text-align: left;
+    background-color: crimson;
+    border-radius: 15px;
+    height: 250px;
+} 
+
+table {
+       border-color: #ffffff;
+       border-collapse: collapse;
+       width: 100%;
+}
+
+td{
+    border-color: aliceblue;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    border: 1px solid #ffffff;
+}
+
+.banderas{
+    width: 50px;
+    height: 30px;
+    margin-right: 18px;
+     vertical-align: middle;
+     
+}
+
+
+ h4{
+    text-align: center;
+    color: #000000;
+    font-size: 30px;
+ }
+    h6{
+        text-align: center;
+        color: #000000;
+        font-size: 20px;
+    }
 
 
 
