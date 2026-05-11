@@ -1,4 +1,80 @@
+<<<<<<< HEAD
 .box{
+=======
+
+body{
+
+background-image: url(estadioro.jpg);
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+background-repeat: no-repeat;
+}
+
+h1{
+    font-size: 100px;
+    text-align: center;
+    color: white;
+}
+.barra_nav{
+    text-align: center;
+    
+}
+
+
+ul{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+li{
+    font-size: 16px;
+    list-style: none;
+    margin-left: 10px ;
+    margin-right: 90px;
+}
+ul li a {
+    color: rgb(248, 245, 245);
+    text-decoration: none;
+}
+li a :hover{
+    background-color: rgb(30, 108, 234);
+    padding: 5px;
+    border-radius: 40%;
+}
+img{
+    width: 60px;
+}
+
+#encabezado {
+    display: flex;
+    align-items: center;
+    gap: 140px;
+    background: rgb(5, 7, 5);
+    padding: 5px 20px;
+}
+
+
+.logo img {
+    width: 80px;  
+    height: auto;
+   
+}
+.barra2{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(29, 29, 158);
+    
+    
+}
+
+
+.Contenedor{
+>>>>>>> 29e0d7fcbf43b999a7734bc1567075f3595b6cb1
     grid-template-columns: 1fr 1fr;
     display: grid;
     justify-content: space-between;
@@ -64,5 +140,304 @@
     vertical-align: middle;
 }
 
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    font-family: sans-serif;
+    width: 1450px;
+    height: 570px;
+    border-radius: 50px;
+}
+
+.contenedor1{
+    align-items:center;
+    overflow: hidden;
+}
+
+.contenedor2{
+    background-color: #f4f4f4;
+    padding: 20px;
+    font-family: sans-serif;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
 
+ .imagen2 img{
+    width: 130px;
+    height: 130px;
+    display: flex;
+}
+
+.imagen2 {
+    display:flex;
+    gap: 20px;
+    margin-bottom: 20px;
+    gap: 30px;
+}
+
+.imagen1 img {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 40px;
+}
+
+.categoria {
+    font-size: 0.75rem;
+    color: #666;
+    text-transform: uppercase;
+}
+
+.imagen2 h3 {
+    font-size: 1rem;
+    margin: 5px 0;
+    color: #333;
+}
+
+h2 {
+    font-size: 50px;
+    font-family:serif;
+}
+
+.descripcion{
+    color: #f3ecec;
+    font-size: 35px;
+}
+
+/* parte dos */
+.la_fifa{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.Card{
+    flex: 1;
+    min-width: 250px;
+    max-width: 200px;
+    width: 200px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 2);
+    padding: 25px;
+    font-size: 20px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.foto {
+    width: 400px;
+    height: 300px;
+}
+
+h4{
+    font-size: 50px;
+    font-family:serif;
+}
+
+
+/* Fotos de los integrantes del grupo */
+
+.fotas{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+    height: 40vh;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.fotas div{
+    padding: 50px 50px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    outline: 10px solid rgb(255, 255, 255);
+}
+
+.nombre{
+    color: #f3e3e3;
+    font-size: 30px;
+    text-align: center;
+}
+
+.fotas .dani{
+    background-color: rgb(14, 14, 14);
+    background-image: url(dani.jpeg);
+    background-position: center;
+    background-size: 150px;
+    background-repeat: no-repeat;
+}
+
+.fotas .selvin{
+    background-color: rgb(14, 14, 14);
+    background-image: url(selvin.jpeg);
+    background-position: center;
+    background-size: 150px;
+    background-repeat: no-repeat;
+}
+
+.fotas .azucena{
+    background-color: rgb(12, 12, 12);
+    background-image: url(azucena.jpeg);
+    background-position: center;
+    background-size: 150px;
+    background-repeat: no-repeat;
+}
+
+.fotas .benjamin{
+    background-color: rgb(20, 19, 20);
+    background-image: url(benjamin.jpeg);
+    background-position: center;
+    background-size: 100px;
+    background-repeat: no-repeat;
+}
+
+.fotas .evelyn{
+    background-color: rgb(21, 20, 21);
+    background-image: url(evelyn.jpeg);
+    background-position: center;
+    background-size: 100px;
+    background-repeat: no-repeat;
+}
+
+.contenedores{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+     border-radius: 15px;
+     background-color: #f3ebeb00;
+     padding: 20px;
+     margin: 20px;
+    
+}
+
+
+.titulo {
+    text-align: center;
+    font-size: 25px;
+    color: #f3e3e3;
+}
+
+.grupo{
+    width: 250px;
+    padding: 15px 15px;
+    margin: 10px;
+    border: 1px solid #000000;
+    text-align: left;
+    background-color: crimson;
+    border-radius: 15px;
+    height: 250px;
+} 
+
+table {
+       border-color: #ffffff;
+       border-collapse: collapse;
+       width: 100%;
+}
+
+td{
+    border-color: aliceblue;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    border: 1px solid #ffffff;
+}
+
+.banderas{
+    width: 50px;
+    height: 30px;
+    margin-right: 18px;
+     vertical-align: middle;
+     
+}
+
+
+ h4{
+    text-align: center;
+    color: #f6eeee;
+    font-size: 30px;
+ }
+    h6{
+        text-align: center;
+        color: #f3ecec;
+        font-size: 20px;
+    }
+
+
+
+
+  .parte1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.fut img {
+    width: 600px;
+    height: 500px;
+}
+
+.titulo{
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+.pa{
+    font-size: 30px;
+}
+
+
+.parte2 {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:20px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 20px;
+}
+
+.anfitriones {
+    width: 250px;
+    padding: 80px 80px;
+    margin: 10px;
+    border: 1px solid rgb(58, 221, 13);
+    text-align: center;
+    background-color: rgb(12, 133, 239);
+    border-radius: 15px;
+
+}
+
+.pepe{
+    color: rgba(252, 251, 251, 0.963);
+    font-size: 50px;
+}
+
+h2{
+    text-align: center;
+    font-size: 50px;
+}
+ 
+.carro{
+     font-size: 100px;
+    text-align: center;
+    color: white;
+}
+
+
+h6{
+    font-size: 50px;
+    text-align: center;
+    color: #f3e3e3;
+}
