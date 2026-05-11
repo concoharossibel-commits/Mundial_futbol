@@ -1,4 +1,4 @@
-.Contenedor{
+.box{
     grid-template-columns: 1fr 1fr;
     display: grid;
     justify-content: space-between;
