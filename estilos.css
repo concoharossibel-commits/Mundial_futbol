@@ -6,9 +6,12 @@ background-size: cover;
 background-position: center;
 background-attachment: fixed;
 background-repeat: no-repeat;
+}
 
-
-
+h1{
+    font-size: 100px;
+    text-align: center;
+    color: white;
 }
 .barra_nav{
     text-align: center;
@@ -140,8 +143,9 @@ img{
     background-color: #f4f4f4;
     padding: 20px;
     font-family: sans-serif;
-    width: 1250px;
+    width: 1450px;
     height: 570px;
+    border-radius: 50px;
 }
 
 .contenedor1{
@@ -194,6 +198,11 @@ h2 {
     font-family:serif;
 }
 
+.descripcion{
+    color: #f3ecec;
+    font-size: 35px;
+}
+
 /* parte dos */
 .la_fifa{
     display: flex;
@@ -231,7 +240,7 @@ h4{
 
 /* Fotos de los integrantes del grupo */
 
-.grupo{
+.fotas{
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
@@ -241,22 +250,29 @@ h4{
     padding: 5px;
 }
 
-.grupo div{
+.fotas div{
+    padding: 50px 50px;
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    outline: 10px solid white;
+    outline: 10px solid rgb(255, 255, 255);
 }
 
-.grupo .dani{
+.nombre{
+    color: #f3e3e3;
+    font-size: 30px;
+    text-align: center;
+}
+
+.fotas .dani{
     background-color: rgb(14, 14, 14);
-        background-image: url(dani.jpeg);
+    background-image: url(dani.jpeg);
     background-position: center;
     background-size: 150px;
     background-repeat: no-repeat;
 }
 
-.grupo .selvin{
+.fotas .selvin{
     background-color: rgb(14, 14, 14);
     background-image: url(selvin.jpeg);
     background-position: center;
@@ -264,7 +280,7 @@ h4{
     background-repeat: no-repeat;
 }
 
-.grupo .azucena{
+.fotas .azucena{
     background-color: rgb(12, 12, 12);
     background-image: url(azucena.jpeg);
     background-position: center;
@@ -272,7 +288,7 @@ h4{
     background-repeat: no-repeat;
 }
 
-.grupo .benjamin{
+.fotas .benjamin{
     background-color: rgb(20, 19, 20);
     background-image: url(benjamin.jpeg);
     background-position: center;
@@ -280,7 +296,7 @@ h4{
     background-repeat: no-repeat;
 }
 
-.grupo .evelyn{
+.fotas .evelyn{
     background-color: rgb(21, 20, 21);
     background-image: url(evelyn.jpeg);
     background-position: center;
@@ -288,12 +304,12 @@ h4{
     background-repeat: no-repeat;
 }
 
-.contenedor{
+.contenedores{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
      border-radius: 15px;
-     background-color: #ffffff;
+     background-color: #f3ebeb00;
      padding: 20px;
      margin: 20px;
     
@@ -303,7 +319,7 @@ h4{
 .titulo {
     text-align: center;
     font-size: 25px;
-    color: #f2f2f2;
+    color: #f3e3e3;
 }
 
 .grupo{
@@ -341,18 +357,83 @@ td{
 
  h4{
     text-align: center;
-    color: #000000;
+    color: #f6eeee;
     font-size: 30px;
  }
     h6{
         text-align: center;
-        color: #000000;
+        color: #f3ecec;
         font-size: 20px;
     }
 
 
 
 
-  
- 
+  .parte1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
+.fut img {
+    width: 600px;
+    height: 500px;
+}
+
+.titulo{
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+.pa{
+    font-size: 30px;
+}
+
+
+.parte2 {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:20px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 20px;
+}
+
+.anfitriones {
+    width: 250px;
+    padding: 80px 80px;
+    margin: 10px;
+    border: 1px solid rgb(58, 221, 13);
+    text-align: center;
+    background-color: rgb(12, 133, 239);
+    border-radius: 15px;
+
+}
+
+.pepe{
+    color: rgb(252, 251, 251);
+    font-size: 50px;
+}
+
+h2{
+    text-align: center;
+    font-size: 50px;
+}
+ 
+.carro{
+     font-size: 100px;
+    text-align: center;
+    color: white;
+}
+
+
+h6{
+    font-size: 50px;
+    text-align: center;
+    color: #f3e3e3;
+}
